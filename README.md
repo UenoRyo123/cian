@@ -14,3 +14,4 @@ laravelの開発環境用テンプレートです。
 4. `composer create-project --prefer-dist laravel/laravel laravel`でプロジェクトの作成
 5. `cd laravel`でプロジェクトのディレクトリに移動
 6. `php artisan key:generate`でキーを作成
+7. `http://localhost:8000/`をブラウザで確認
