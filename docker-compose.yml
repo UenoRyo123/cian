@@ -26,7 +26,7 @@ services:
       MYSQL_PASSWORD: ${MYSQL_PASSWORD}
       TZ: ${TZ}
     ports:
-      - "33061:3306"
+      - "${MYSQL_PORT}:3306"
 
 volumes:
   db-store:
